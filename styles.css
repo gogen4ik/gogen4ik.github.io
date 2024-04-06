@@ -198,7 +198,7 @@ h1 {
 }
 
 footer {
-    background-color: #eae0d7;
+    background-color: #2e2e2e;
     height: 60px;
     display: flex;
     align-items: center;
@@ -218,7 +218,7 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     position: relative; /* Добавляем, чтобы псевдоэлемент позиционировался относительно ссылки */
     overflow: hidden; /* Обрезаем лишнее, чтобы линия появлялась внутри границ ссылки */
 }
@@ -229,8 +229,8 @@ footer ul li a::after {
     bottom: 0;
     left: 0;
     width: 0; /* Изначально линия невидима */
-    height: 3px; /* Высота линии */
-    background-color: #003a7e; /* Цвет линии */
+    height: 1px; /* Высота линии */
+    background-color: #ffffff; /* Цвет линии */
     transform: translateX(-100%); /* Сдвигаем линию влево, чтобы она была не видна изначально */
     transition: transform 0.7s ease, width 0.7s ease; /* Добавляем анимацию изменения ширины */
 }
@@ -241,7 +241,7 @@ footer ul li a:hover::after {
 }
 
 footer ul li a:hover {
-    color: #003a7e;
+    color: #ffffff;
 }
 
 
@@ -277,14 +277,14 @@ footer ul li a:hover {
     bottom: 0;
     left: 0;
     width: 0; /* Изначально линия невидима */
-    height: 3px; /* Высота линии */
+    height: 1px; /* Высота линии */
     background-color: #ffffff; /* Цвет линии */
-    transform: translateX(-100%); /* Сдвигаем линию влево, чтобы она была не видна изначально */
+    transform: translateX(50%); /* Сдвигаем линию влево, чтобы она была не видна изначально */
     transition: transform 0.7s ease, width 0.7s ease; /* Добавляем анимацию изменения ширины */
 }
 
 .footer1 ul li a:hover::after {
-    transform: translateX(0); /* При наведении линия выезжает с лева на право */
+    transform: translateX(50%); /* При наведении линия выезжает с лева на право */
     width: 50%; /* Линия выезжает только на 50% длины слова */
 }
 
