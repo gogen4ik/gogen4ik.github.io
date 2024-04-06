@@ -203,6 +203,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer ul {
@@ -292,3 +295,16 @@ footer ul li a:hover {
     color: #ffffff;
 }
 
+.books_table{
+    width: 100%;
+    text-align: center;
+    border: 3px solid #003a7e;
+    border-collapse: collapse ;
+}
+
+.books_table th{
+    border: 3px solid #003a7e;
+}
+.books_table td{
+    border: 1px solid #003a7e;
+}
