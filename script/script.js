@@ -7,6 +7,13 @@ document.querySelector('.menu-button').addEventListener('click', function() {
   }
 });
 
+const menuButton = document.querySelector('.menu-button');
+const dropdownMenu = document.querySelector('.dropdown-menu');
+
+menuButton.addEventListener('click', () => {
+  dropdownMenu.classList.toggle('active');
+});
+
 
 // Ссылки на кнопки
 const loginButton = document.querySelector('.login-button');
@@ -169,3 +176,5 @@ window.addEventListener('load', () => {
   toggleAddReviewButton();
   displayReviews();
 });
+
+

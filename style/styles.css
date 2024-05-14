@@ -224,7 +224,7 @@ nav ul li a:hover {
 
 .content2 h1{
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .content3 {
@@ -490,3 +490,25 @@ footer ul li a:hover {
         transition: background-color 0.3s;
         z-index: 1;
 }
+
+
+
+
+
+
+
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+    header {
+        height: 50px;
+    }
+    h1{
+        font-size: 15px;
+        
+    }
+    section{
+        margin-bottom: 50px;
+    }
+    
+}
+  
