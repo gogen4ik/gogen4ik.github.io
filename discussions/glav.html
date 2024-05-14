@@ -26,21 +26,48 @@
         </nav>
         <a href="../glav/index.html"><img src="../media/Tree Page.png" alt="Логотип Tree Page" class="img_name"></a>
         <button class="login-button"><a href="../index.html">Войти</a></button>
+        <button class="logout-button">Выйти</button>
     </header>
+
+
     <div class="content">
         <section>
-            <h1>Добро пожаловать на Tree Page!</h1>
-        </section>
+            <p>Хочешь оставить отзыв? Тогда заполняй форму!</p><button class="add-review-btn" style="display: none;">Добавить отзыв</button>
+        </section>   
     </div>
 
-    <footer>
-        <ul>
-            <li><a href="../glav/index.html">Главная</a></li>
-            <li><a href="../books/glav.html">Книги</a></li>
-            <li><a href="../review/glav.html">Рецензии</a></li>
-            <li><a href="../discussions/glav.html">Обсуждения</a></li>
-        </ul>
-    </footer>
+<div class="modal" id="reviewModal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Добавить отзыв</h2>
+    <form id="reviewForm">
+      <label for="author">Выберите автора:</label><br>
+      <select id="author" name="author">
+        <option value="author1">Автор 1</option>
+        <option value="author2">Автор 2</option>
+      </select><br>
+
+      <label for="book">Выберите произведение:</label><br>
+      <select id="book" name="book">
+        <option value="book1">Книга 1</option>
+        <option value="book2">Книга 2</option>
+      </select><br>
+
+      <label for="review">Напишите отзыв:</label><br>
+      <textarea id="review" name="review"></textarea><br>
+
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+</div>
+<footer>
+    <ul>
+        <li><a href="../glav/index.html">Главная</a></li>
+        <li><a href="../books/glav.html">Книги</a></li>
+        <li><a href="../review/glav.html">Рецензии</a></li>
+        <li><a href="../discussions/glav.html">Обсуждения</a></li>
+    </ul>
+</footer>
     <script src="../script/script.js"></script>
 </body>
 </html>

@@ -18,21 +18,14 @@ body{
   position: fixed;
   margin: 0px;
   z-index: 1000;
-  top: 700px;
+  top: 600px;
   color: #003a7e;
   text-decoration: none;
   font-size: 17px;
   border-bottom: 2px solid #003a7e;
 }
 .per:hover{
-  position: fixed;
-  margin: 0px;
-  z-index: 1000;
-  top: 700px;
   color: #0077ff;
-  text-decoration: none;
-  font-size: 18px;
-  border-bottom: 2px solid #0077ff;
 }
 .container{
   position: relative;

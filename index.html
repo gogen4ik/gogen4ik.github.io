@@ -11,7 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
-  <a href="glav/index.html" class="per">Режим наблюдателя</a>
+  
+  <a href="glav/index.html" class="per"><div id="userWelcomeMessage"></div></a>
   <div class="container">
     <input type="checkbox" id="flip">
     <div class="cover">
@@ -34,15 +35,16 @@
         <div class="form-content">
           <div class="login-form">
             <div class="title">Вход</div>
-          <form action="#login.php" method="post">
+          <form id="loginForm">
             <div class="input-boxes">
               <div class="input-box">
                 <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Введите вашу почту" required name="login">
+            
+                <input type="email" id="loginEmail" name="email" placeholder="Введите вашу почту" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Введите ваш пароль" required name="pass">
+                <input type="password" placeholder="Введите ваш пароль" id="loginPassword" name="password" required>
               </div>
               <div class="text"><a href="#">Забыли пароль?</a></div>
               <div class="button input-box">
@@ -54,29 +56,34 @@
       </div>
         <div class="signup-form" >
           <div class="title">Регистрация</div>
-        <form action="#register.php" method="post">
+          <form id="registerForm">
             <div class="input-boxes">
               <div class="input-box">
                 <i class="fas fa-user"></i>
-                <input type="text" placeholder="Введите ваще имя" required name="login">
+            
+                <input type="text" id="regUsername" placeholder="Введите ваще имя" name="username" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-envelope"></i>
-                <input type="text" placeholder="Введите вашу почту" required name="email">
+                
+                <input type="email" id="regEmail" placeholder="Введите вашу почту" name="email" required>
               </div>
               <div class="input-box">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Придумайте пароль" required name="pass">
+                <input type="password" id="regPassword" name="password" placeholder="Придумайте пароль" required>
+
               </div>
               <div class="button input-box">
                 <input type="submit" value="Регистрация">
               </div>
               <div class="text sign-up-text">Уже есть аккаунт? <label for="flip">Войти</label></div>
             </div>
-      </form>
+          </form>
     </div>
     </div>
     </div>
   </div>
+  
+  <script src="script.js"></script>
 </body>
 </html>
