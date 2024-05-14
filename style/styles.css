@@ -502,13 +502,27 @@ footer ul li a:hover {
     header {
         height: 50px;
     }
+    .head1{
+        margin-left: 0;
+    }
+    .login-button, .logout-button{
+        margin-right: 0;
+    }
     h1{
         font-size: 15px;
-        
     }
-    section{
-        margin-bottom: 50px;
+    p{
+        font-size: 12px;
+        text-align: center;
     }
-    
+    .content, .content3{
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+    footer{
+        display: none;
+    }
+
 }
   
