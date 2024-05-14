@@ -215,9 +215,23 @@ nav ul li a:hover {
     background-image: url(../media/bibl1.jpg);
     height: 100px;
 }
+.content4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+
+    background-image: url(../media/bibl1.jpg);
+    height: 100px;
+}
+
+.content4 h1{
+    color: #fff;
+    font-size: 20px;
+}
 
 .content1 {
-    margin-top: 0;
+    margin-bottom: 100px;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -498,7 +512,7 @@ footer ul li a:hover {
 
 
 /* Стили для мобильных устройств */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     header {
         height: 50px;
     }
@@ -518,11 +532,62 @@ footer ul li a:hover {
     .content, .content3{
         margin-right: 0;
         margin-left: 0;
-        margin-top: 10%;
+        margin-top: 60px;
     }
     footer{
         display: none;
     }
+    section{
+        margin: top 0;
+    }
+    
+.reviews-container {
+    margin-left:0;
+    margin-right:0;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  
+  .review {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .review h3 {
+    margin-top: 0;
+    font-size: 15px;
+    color: #333333;
+  }
+  
+  .review p {
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.5;
+    white-space: normal;
+  }
+    .add-review-btn{
+        width: 50%;
+        font-size: 13px;
+        margin-left: 24%;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
   
