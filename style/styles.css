@@ -72,16 +72,19 @@ nav ul li a:hover {
 }
 
 .menu-button{
-    background-color: #003b7e00;
-    color: #003a7e;
+    background-color:#003a7e;
+    color: #ffffff;
     border-color: #003a7e;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    z-index: 1;
+
     }
+
+    .menu-button:hover {
+        background-color: #001e41;
+    }    
 
 .dropdown-menu {
     display: none; /* Скрыть меню до активации */
@@ -158,14 +161,13 @@ nav ul li a:hover {
 }
 
 .login-button {
-    background-color: #003a7e;
-    color: #eae0d7;
-    border: none;
+    background-color:#003a7e;
+    color: #ffffff;
+    border-color: #003a7e;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
     margin-right: 15%;
 }
 
@@ -180,14 +182,13 @@ nav ul li a:hover {
 }
 
 .logout-button {
-    background-color: #003a7e;
-    color: #eae0d7;
-    border: none;
+    background-color:#003a7e;
+    color: #ffffff;
+    border-color: #003a7e;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
     margin-right: 15%;
 }
 
@@ -438,9 +439,9 @@ footer ul li a:hover {
 
   .modal-content {
     background-color: #eae0d7;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #003b7e;
+    margin: 3% auto;
+    padding: 50px;
+    border: 2px solid #003b7e;
     border-radius: 5px;
     width: 30%;
   }
@@ -519,9 +520,7 @@ footer ul li a:hover {
     .head1{
         margin-left: 0;
     }
-    .login-button, .logout-button{
-        margin-right: 0;
-    }
+
     h1{
         font-size: 15px;
     }

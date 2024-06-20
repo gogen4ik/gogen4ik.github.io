@@ -17,7 +17,7 @@
                         <li><a href="../books/glav.html">Книги</a></li>
                     </ul>
                     <ul>    
-                        <li><a href="../review/glav.html">Рецензии</a></li>
+                        <li><a href="../review/glav.html">Контакты</a></li>
                     </ul>
                     <ul>
                         <li><a href="../discussions/glav.html">Обсуждения</a></li>
@@ -32,7 +32,7 @@
 
     <div class="content">
         <section>
-            <h1>Хочешь оставить отзыв? Тогда заполняй форму!</h1>
+            <h1 style="color:rgb(3, 74, 155)"> Хочешь оставить отзыв? Тогда заполняй форму!</h1><br><br>
             <button class="add-review-btn" style="display: none;">Добавить отзыв</button>
         </section>   
     </div>
@@ -40,22 +40,18 @@
 <div class="modal" id="reviewModal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <h2>Добавить отзыв</h2>
+    <h1 style="color:rgb(3, 74, 155)">Добавить отзыв</h1>
     <form id="reviewForm">
-      <label for="author">Выберите автора:</label><br>
-      <select id="author" name="author">
-        <option value="author1">Автор 1</option>
-        <option value="author2">Автор 2</option>
+        <label for="author" >Введите автора</label><br>
+        <textarea id="author" name="author"></textarea><br><br>
+      
+
+      <label for="book">Введите название произведения</label><br>
+        <textarea id="book" name="book"></textarea><br><br>
       </select><br>
 
-      <label for="book">Выберите произведение:</label><br>
-      <select id="book" name="book">
-        <option value="book1">Книга 1</option>
-        <option value="book2">Книга 2</option>
-      </select><br>
-
-      <label for="review">Напишите отзыв:</label><br>
-      <textarea id="review" name="review"></textarea><br>
+      <label for="review">Напишите отзыв</label><br>
+      <textarea id="review" name="review"></textarea><br><br><br>
 
       <input type="submit" value="Отправить">
     </form>
@@ -65,7 +61,7 @@
     <ul>
         <li><a href="../glav/index.html">Главная</a></li>
         <li><a href="../books/glav.html">Книги</a></li>
-        <li><a href="../review/glav.html">Рецензии</a></li>
+        <li><a href="../review/glav.html">Контакты</a></li>
         <li><a href="../discussions/glav.html">Обсуждения</a></li>
     </ul>
 </footer>
